@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Show</title>
+    <style>
+        body {
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <!--Titulo Principal-->
+    <h1>Melhor Evento Musical do Mundo</h1>
+    <!--Imagem URL-->
+    <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/03/lollapalooza-2024-2-e1711548063430.jpg?w=1200&h=900&crop=1" alt="Multidao" width="500">
+        <h2>Spoiler</h2>
+    <!-- Video -->
+    <video controls>
+        <source src="Show.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <!-- Audio -->
+     <h2>Audios</h2>
+     <audio controls>
+        <source src="Audio-Som.mp3" type="audio/mp3">
+     </audio>
+     <!-- Tabelas -->
+      <h2>Tabelas</h2>
+      <table border="1" style="background-color: rgb(5, 5, 5);">
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 8px;
+                text-align: left;
+                border-bottom: 1px solid #000000;
+                color: rgb(255, 255, 255);
+            }
+            th {
+                background-color: #ff0000;
+            }
+        </style>
+        <thead>
+            <tr>
+                <th>Horário</th>
+                <th>Atração</th>
+                <th>Palco</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>20:00</td>
+                <td>AC/DC</td>
+                <td>Palco Ala Leste</td>
+            </tr>
+            <tr>
+                <td>22:00</td>
+                <td>Nickelback</td>
+                <td>Palco Externo</td>
+            </tr>
+            <tr>
+                <td>00:00</td>
+                <td>Beatles</td>
+                <td>Palco Principal</td>
+        </tbody>
+      </table>
+    <!-- Formulario -->
+    <h2>Formulários</h2>
+    <form>
+        <p>Insira Seu Nome</p>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+
+        <p>Insira Seu e-mail</p>
+        <label for="email">e-mail:</label>
+        <input type="text" id="email">
+
+        <p>Insira Seu Telefone</p>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="numero">
+
+        <p>Selecione seu Assento</p>
+        <label>
+            <input type="radio" name="Pista" value="Pista">Pista
+            <input type="radio" name="VIP" value="VIP">VIP
+            <input type="radio" name="Camarote" value="Camarote">Camarote
+        </label>
+
+        <p>Notificações</p>
+        <label>
+            <input type="checkbox" name="Notificação" value="email">Receber notificações por e-mail
+        </label>
+
+    <H2>Enviar Formulário</H2>
+    <button type="submit">Enviar Formulário</button>
+    </form>
+</body>
+</html>
