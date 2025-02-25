@@ -1,0 +1,21 @@
+#Foto{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+body{
+    background-color: rgb(4, 4, 4);
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+#quad{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(49, 10, 10);
+}
