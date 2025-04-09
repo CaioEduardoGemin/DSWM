@@ -1,0 +1,248 @@
+/* Layout */
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(../imagens/ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Barra de navegação */
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+/* Header Section */
+.ajuda-header {
+    padding: 50px 0;
+}
+
+.ajuda-header h1, .ajuda-header h3, .ajuda-header p, .ajuda-header small {
+    color: white;
+}
+
+.ajuda-header a {
+    text-decoration: underline;
+}
+
+.ajuda-header a:hover {
+    color: #9bf0e1;
+}
+.text-wrap {
+    word-wrap: break-word;
+    white-space: normal;
+}
+/* Accordion Section */
+.ajuda h1, .ajuda h3 {
+    color: #7c25f8;
+    margin-bottom: 20px;
+}
+
+.ajuda .container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ajuda input.form-control {
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+
+.ajuda h4 {
+    color: #ff4169;
+    margin-bottom: 15px;
+}
+
+.ajuda ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ajuda ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.ajuda ul li:hover {
+    color: #7c25f8;
+    cursor: pointer;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header button {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.card-header button:hover {
+    color: #7c25f8;
+}
+
+.card-body ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card-body ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Ajuda-Rapida Section */
+.ajuda-rapida {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+
+.ajuda-rapida h4 {
+    color: #7c25f8;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+.ajuda-rapida .card {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ajuda-rapida .card-header {
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.ajuda-rapida .card-header h5 {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.ajuda-rapida .card-header .btn-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.ajuda-rapida .card-header .btn-link:hover {
+    color: #7c25f8;
+}
+
+.ajuda-rapida .card-header i {
+    transition: transform 0.3s;
+}
+
+/* Ajuda-Comunidade Section */
+.ajuda-comunidade {
+    padding: 50px 0;
+    border: none;
+    box-shadow: none;
+    color: white;
+}
+
+.ajuda-comunidade h4 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ajuda-comunidade p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.ajuda-comunidade .btn-outline-light {
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: 2px solid white;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.ajuda-comunidade .btn-outline-light:hover {
+    background-color: white;
+    color: #7c25f8;
+}
+
+.ajuda-comunidade .btn {
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.ajuda-comunidade .btn:hover {
+    background-color: #ff4169;
+    color: white;
+}
+
+/* Footer Section */
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}

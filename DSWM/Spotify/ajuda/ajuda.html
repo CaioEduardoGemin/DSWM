@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte - Spotify</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome --> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style_ajuda.css">
+    <link rel="shortcut icon" href="/imagens/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light navbar-transparente">
+
+            <div class="container">
+                <a href="/index_home.html" class="navbar-brand"><img src="/imagens/spotify.svg" width="142">
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Premium</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/ajuda/ajuda.html" class="nav-link">Ajuda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Baixar</a>
+                        </li>
+                        <li class="nav-item divisor"></li>
+                        <li class="nav-item">
+                            <a href="/incricao/inscricao.html" class="nav-link">Inscrever-se</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/entrar/entrar.html" class="nav-link">Entrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="ajuda-header text-center text-white py-5">
+        <h1>Atendimento do Spotify</h1>
+        <h3>Como podemos ajudar?</h3>
+        <p>Faça <a href="../entrar/index-entrar.html" class="text-white">login</a> para ter ajuda mais rápido</p>
+        <div class="text-center mb-4">
+            <input type="text" class="form-control d-inline-block w-50" placeholder="Buscar">
+            <small class="form-text text-white">Comece a digitar na Busca e use a tecla Tab para escolher uma opção na lista.</small>
+        </div>
+    </section>
+    <section class="ajuda">
+        <div class="container bg-white p-4">
+            <div class="accordion" id="ajudaAccordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link text-left w-100" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Pagamentos e cobranças <i class="fas fa-chevron-down float-right"></i>
+                            </button>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#ajudaAccordion">
+                        <div class="card-body">
+                            <p>Assuntos recomendados</p>
+                            <ul>
+                                <li>Gerenciar pagamentos</li>
+                                <li>Formas de pagamento</li>
+                                <li>Ajuda com a cobrança</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link text-left w-100" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Gerenciar sua conta <i class="fas fa-chevron-down float-right"></i>
+                            </button>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#ajudaAccordion">
+                        <div class="card-body">
+                            <ul>
+                                <li>Como entrar</li>
+                                <li>Ajuda com o perfil</li>
+                                <li>Configurações da conta</li>
+                                <li>Segurança</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link text-left w-100" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Planos Premium <i class="fas fa-chevron-down float-right"></i>
+                            </button>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#ajudaAccordion">
+                        <div class="card-body">
+                            <ul>
+                                <li>Planos disponíveis</li>
+                                <li>Preferências do plano</li>
+                                <li>Premium Família</li>
+                                <li>Premium Duo</li>
+                                <li>Premium Universitário</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link text-left w-100" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Recursos no app <i class="fas fa-chevron-down float-right"></i>
+                            </button>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#ajudaAccordion">
+                        <div class="card-body">
+                            <ul>
+                                <li>Como começar</li>
+                                <li>Preferências do app</li>
+                                <li>Solução de problemas</li>
+                                <li>Playlists</li>
+                                <li>Recursos</li>
+                                <li>Recursos de redes sociais</li>
+                                <li>Podcasts</li>
+                                <li>Eventos ao vivo</li>
+                                <li>Privacidade de reprodução</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link text-left w-100" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Dispositivos e solução de problemas <i class="fas fa-chevron-down float-right"></i>
+                            </button>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#ajudaAccordion">
+                        <div class="card-body">
+                            <ul>
+                                <li>Alto-falantes</li>
+                                <li>Smartwatches</li>
+                                <li>TVs</li>
+                                <li>Videogames</li>
+                                <li>Carros</li>
+                                <li>Assistentes de voz</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link text-left w-100" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Segurança e privacidade <i class="fas fa-chevron-down float-right"></i>
+                            </button>
+                        </h4>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#ajudaAccordion">
+                        <div class="card-body">
+                            <ul>
+                                <li>Direitos sobre dados e escolhas de privacidade</li>
+                                <li>Como interpretar meus dados</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ajuda-rapida mt-4 p-4 rounded">
+                <h4>Ajuda rápida</h4>
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <span class="btn btn-link text-left w-100 text-wrap">
+                                Não consigo entrar no Spotify <i class="fas fa-chevron-right float-right"></i>
+                            </span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <span class="btn btn-link text-left w-100 text-wrap">
+                                Ajuda com pagamento não efetuado <i class="fas fa-chevron-right float-right"></i>
+                            </span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <span class="btn btn-link text-left w-100 text-wrap">
+                                Cobrança muito alta <i class="fas fa-chevron-right float-right"></i>
+                            </span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <span class="btn btn-link text-left w-100 text-wrap">
+                                Convidar ou remover membros do plano Família <i class="fas fa-chevron-right float-right"></i>
+                            </span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">
+                            <span class="btn btn-link text-left w-100 text-wrap">
+                                Como mudar seus detalhes de pagamento <i class="fas fa-chevron-right float-right"></i>
+                            </span>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="ajuda-comunidade text-center text-white py-5">
+        <div class="container">
+            <h4>Visite nossa Comunidade</h4>
+            <p>Tem uma pergunta? Encontre respostas na nossa Comunidade de fãs especialistas do mundo todo!</p>
+            <a href="#" class="btn btn-outline-light mt-3">Acesse a Comunidade Spotify</a>
+        </div>
+    </section>
+    <!-- roda pé -->
+    <footer>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-2">
+                    <img src="../imagens/spotify.svg" width="142">
+                </div>
+                <div class="col-md-2">
+                    <h4>Company</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Empregos</a></li>
+                        <li><a href="">Imprensa</a></li>
+                        <li><a href="">Novidades</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Comunidades</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Artistas</a></li>
+                        <li><a href="">Devs</a></li>
+                        <li><a href="">Marcas</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Links úteis</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="index-ajuda.html">Ajuda</a></li>
+                        <li><a href="">Presentes</a></li>
+                        <li><a href="">Player da Web</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <a href=""><img src="../imagens/facebook.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../imagens/twitter.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="../imagens/instagram.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
