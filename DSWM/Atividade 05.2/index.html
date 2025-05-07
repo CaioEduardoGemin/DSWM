@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Store</h2>
+        <p>Saldo disponível: <span id="saldo">R$200,00</span></p>
+
+        <div class="produtos">
+            <div class="produto">
+                <p>Camiseta - R$50,00</p>
+                <button onclick="adicionarAoCarrinho('Camiseta', 50.00)">Adicionar</button>
+            </div>
+            <div class="produto">
+                <p>Calça - R$80,00</p>
+                <button onclick="adicionarAoCarrinho('Calça', 80.00)">Adicionar</button>
+            </div>
+            <div class="produto">
+                <p>Tênis - R$120,00</p>
+                <button onclick="adicionarAoCarrinho('Tênis', 120.00)">Adicionar</button>
+            </div>
+        </div>
+
+        <h3>Carrinho</h3>
+        <ul id="carrinho-list"></ul>
+        <p>Total da compra: <span id="total">R$0,00</span></p>
+
+        <button onclick="finalizarCompra()">Finalizar Compra</button>
+        <p id="mensagem"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
