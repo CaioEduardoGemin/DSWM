@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#likeButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #CF291D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#likeButton:hover {
+    background-color: #A32117;
+}
+
+.servico-card img {
+    width: 120px;
+    max-width: 100%;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.servico-card img:hover {
+    transform: scale(1.1);
+}
